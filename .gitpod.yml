@@ -1,4 +1,5 @@
-ame: VIKTOR
+tasks:
+  - name: VIKTOR
     init: |
       curl -Lo viktor-cli 'https://sys.viktor.ai/api/v1/get-cli/?platform=linux&format=binary'
       chmod +x viktor-cli
